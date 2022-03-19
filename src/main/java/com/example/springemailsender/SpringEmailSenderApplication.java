@@ -26,7 +26,7 @@ public class SpringEmailSenderApplication {
 
 
 
-        senderServices.sendSimpleEmail("email_TO@gmail.com",
+        senderServices.sendSimpleEmail("TO_EMAILv@gmail.com",
                 "this is BODY ",
                 "this is Subject");
 
@@ -42,9 +42,9 @@ public class SpringEmailSenderApplication {
 
 
 
-        senderServices.sendEmailWithAttachment("julian.l.bashev@gmail.com",
+        senderServices.sendEmailWithAttachment("to_EMAIL@gmail.com",
                 "this is just body","this   email has attachment",
-                "C:\\Users\\Zhuliyan\\Desktop\\einweggeschirr.jpg");
+                "C:\\*****\\******\\Desktop\\einweggeschirr.jpg");
 
     }
 }

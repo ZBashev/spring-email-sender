@@ -9,4 +9,4 @@ spring:
                     auth: true
                     starttls:
                         enable: true
-        username: email_FROM@gmail.com
+        username: from_email@gmail.com
